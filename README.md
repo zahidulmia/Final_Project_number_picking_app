@@ -1,13 +1,14 @@
 # Final_assignment
+Hi , Welcome to Our group project . In this project we have an serious game about maths which will add up numbers and it will
+ask the user to choose the correct addition. The user has to hit the right addition ball to win. Otherwise the player will lose.
+We have a group of 4 people who were involbed in this project to make it happen . 
 
-This is a Unity group assignment file,
+This project is madepossible by Unity @018 Latest version Of 2018.0.2. To play this game or work on this project you need to 
+have latest version of unity. This is a simple serious game with values. 
 
-this game is all about numbers , our game will ask for the right addition and the player has to hit the right number.
-if the player can hit the right number he will win and if it doesnt then the palyer will lose. this is simple serious game .
+Our Group Members
 
-
-In our group we have 
-Zahidul haque - Developer 
-Rizwan kiani - Planner
-saad MAhmud - Designer
-Priit Jonnas - DEsigner
+Zahidul Haque - Developer .
+Rizwan Kiani - Planner.
+Saad Mahmud - Designer.
+Priit Joonas - Designer.

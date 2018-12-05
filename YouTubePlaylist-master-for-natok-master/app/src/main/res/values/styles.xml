@@ -1,0 +1,55 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <!--   <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        </style>-->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#002156</item>
+
+
+        <item name="android:spinnerStyle">@style/Widget.AppCompat.Spinner.Underlined</item>
+        <item name="android:spinnerDropDownItemStyle">@style/Widget.AppCompat.TextView.SpinnerItem
+        </item>
+    </style>
+
+    <style name="CustomActionBar" parent="@style/Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:background">@android:color/holo_blue_dark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.UserDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:state_window_focused">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        .
+
+    </style>
+
+
+    <style name="Theme.Transparent" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/Green_Transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

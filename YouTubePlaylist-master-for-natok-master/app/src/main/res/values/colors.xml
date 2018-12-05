@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="semi_transparent_black">#002156</color>
+    <color name="full_trabsparent"> #00FFFFFF </color>
+    <color name="transparent_aloce">#00F0F8FF</color>
+    <color name="Green_pit_Color">#01b52b</color>
+    <color name="Green_Transparent">#a0000000</color>
+    <color name="album_title">#4c4c4c</color>
+</resources>

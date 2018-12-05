@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.theace.natok2017.YouTubeActivity"
+    android:orientation="vertical">
+
+
+
+
+<FrameLayout
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight=".9"
+
+    tools:ignore="MergeRootFrame">
+
+
+
+</FrameLayout>
+
+   <com.google.android.gms.ads.AdView
+        android:id="@+id/adView_youtube"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+       android:layout_gravity="center"
+       android:layout_weight=".1"
+        ads:adUnitId="@string/banner_home_footer">
+    </com.google.android.gms.ads.AdView>
+</LinearLayout>

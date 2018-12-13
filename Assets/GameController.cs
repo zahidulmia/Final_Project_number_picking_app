@@ -49,7 +49,7 @@ public class GameController : MonoBehaviour {
 */
 		//SetUserScore
 		UserScore.GetComponent<Text>().text = "Score : " + Score.ToString();
-
+//saad
 
 		Num1 = Random.Range (0,10);
 		Num2 = Random.Range (0,10);
@@ -83,7 +83,7 @@ public class GameController : MonoBehaviour {
 			EnemyText3.GetComponent<TextMesh> ().text = ran.ToString();
 			if (ran != Answer)
 				MoveOn = false;				
-		}
+		} // saad
 
 		//EnemyText2.GetComponent<TextMesh> ().text = Random.Range (0,20).ToString();
 		//EnemyText3.GetComponent<TextMesh> ().text = Random.Range (0,20).ToString();
@@ -124,7 +124,7 @@ public class GameController : MonoBehaviour {
 		x.transform.parent.gameObject.GetComponent<Enemy>().RightAnswer = true;
 
 	}
-	// Update is called once per frame
+	// Update is called once per frame below code is made my Rizwan
 	void Update () {
 		
 	}
@@ -139,7 +139,7 @@ public class GameController : MonoBehaviour {
 			Invoke ("ReloadScene", 3f);
 		}
 	}
-	public void UserLoses()
+	public void UserLoses() // rizwan
 	{
 		if (ListeningToOrders) {
 			LoseDisplayScore.GetComponent<Text>().text = "Score :" + Score.ToString();
